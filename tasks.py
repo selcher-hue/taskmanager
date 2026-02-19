@@ -1,4 +1,3 @@
-
 import json
 import os
 
@@ -54,6 +53,8 @@ def mark_task_done(tasks):
         print("Task marked as done.")
     except ValueError:
         print("Invalid input. Please enter a number.")
+
+
 def main():
     tasks = load_tasks()
     while True:
@@ -77,4 +78,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
