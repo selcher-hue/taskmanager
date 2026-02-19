@@ -54,8 +54,6 @@ def mark_task_done(tasks):
         print("Task marked as done.")
     except ValueError:
         print("Invalid input. Please enter a number.")
-
-
 def main():
     tasks = load_tasks()
     while True:
