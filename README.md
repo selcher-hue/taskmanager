@@ -2,28 +2,61 @@
 # Task Manager
 
 ## What is this project?
-Task Manager is a command-line Python application that allows students to manage their homework and study tasks. 
-You can add tasks, view all tasks, and mark tasks as completed. All tasks are saved in a JSON file.
+Task Manager is a command-line Python application written in Python.
+It allows users to manage study or homework tasks using a simple menu interface.
+Tasks are stored in a JSON file (tasks.json) so they remain saved after the program exits.
 
-## How to run the project?
-1. Make sure Python 3.6 or higher is installed on your computer.
-2. Open a terminal (Command Prompt / PowerShell on Windows).
-3. Navigate to the folder containing `tasks.py`.
-4. Run the program with:
+The program supports:
+- Adding new tasks
+- Viewing all tasks
+- Marking tasks as completed
+- Saving tasks before exiting
 
+## How to run the project
+1. Make sure Python 3.6 or higher is installed.
+2. Open a terminal (Command Prompt / PowerShell).
+3. Navigate to the folder that contains tasks.py.
+4. Run the following command:
 
-## Usage
-1. Run the program:
-2. Use the menu options:
-- 1: Add a new task
-- 2: View all tasks
-- 3: Mark a task as done
-- 4: Save tasks and exit
+   python tasks.py
 
-## Files
-- `tasks.py` : Python code of the Task Manager.
-- `tasks.json` : Sample data for tasks.
-- `README.md` : Project description and instructions.
+## Example usage
+
+When the program starts, you will see:
+
+1. Add Task
+2. View Tasks
+3. Mark Task as Done
+4. Exit
+
+Example:
+
+Choose an option: 1
+Enter task: Study Math
+Task added.
+
+Choose an option: 2
+1. [ ] Study Math
+
+Choose an option: 3
+Enter task number to mark as done: 1
+Task marked as done.
+
+Choose an option: 2
+1. [Done] Study Math
+
+Choose an option: 4
+(Program exits)
+
+## Files included
+- tasks.py : Main Python application file
+- tasks.json : Stores tasks data in JSON format
+- README.md : Project documentation
 
 ## Requirements
 - Python 3.6 or higher
+"""
+with open("README.md", "w") as file:
+    file.write(readme_text)
+
+print("README.md created successfully.")
