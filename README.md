@@ -1,7 +1,16 @@
 
 # Task Manager
 
-A command-line Python application to manage student homework and study tasks.
+## What is this project?
+Task Manager is a command-line Python application that allows students to manage their homework and study tasks. 
+You can add tasks, view all tasks, and mark tasks as completed. All tasks are saved in a JSON file.
+
+## How to run the project?
+1. Make sure Python 3.6 or higher is installed on your computer.
+2. Open a terminal (Command Prompt / PowerShell on Windows).
+3. Navigate to the folder containing `tasks.py`.
+4. Run the program with:
+
 
 ## Usage
 1. Run the program:
