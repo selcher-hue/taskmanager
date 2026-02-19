@@ -21,9 +21,9 @@ You can add tasks, view all tasks, and mark tasks as completed. All tasks are sa
 - 4: Save tasks and exit
 
 ## Files
-- `tasks.py` : Python code of the Task Manager
-- `tasks.json` : Sample data for tasks
-- `README.md` : Project description and instructions
+- `tasks.py` : Python code of the Task Manager.
+- `tasks.json` : Sample data for tasks.
+- `README.md` : Project description and instructions.
 
 ## Requirements
 - Python 3.6 or higher
